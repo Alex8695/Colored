@@ -26,4 +26,6 @@ setup(
     packages=["reader"],
     include_package_data=True,
     install_requires=["numpy", "math"],
+    download_url="https://github.com/Alex8695/ColorfulData/archive/refs/tags/b.1.0.0.tar.gz",
+    keywords=["Color","Data"]
 )
