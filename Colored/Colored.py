@@ -51,12 +51,12 @@ class Colored:
             _colorIndex = \
                 _colorsIn[:_colorsCount]
 
-        print(f'{str(_colorsCount).rjust(5)}:'
-        +f' x{_repeat}'
-        +f' new palette: {str(len(_colorsIn)).rjust(5)}'
-        +f' remainder: {str(_remainder).rjust(5)}'
-        +f' skip:{str(_skip).rjust(3)}'
-        +f' color index:{str(len(_colorIndex)).rjust(5)}')
+        #print(f'{str(_colorsCount).rjust(5)}:'
+        #+f' x{_repeat}'
+        #+f' new palette: {str(len(_colorsIn)).rjust(5)}'
+        #+f' remainder: {str(_remainder).rjust(5)}'
+        #+f' skip:{str(_skip).rjust(3)}'
+        #+f' color index:{str(len(_colorIndex)).rjust(5)}')
     
         return _colorIndex
         
