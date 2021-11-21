@@ -1,7 +1,7 @@
 import numpy as np
 from math import ceil,floor
 
-class Colored:
+class ColorfulData:
     """
     Create custom evenly distributed color palete
     \n`Get_Colors_Matched`: key,value relationship evenly distributed for given unique values

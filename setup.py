@@ -9,12 +9,12 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="ColoredData",
+    name="ColorfulData",
     version="1.0.0",
     description="Evenly Distribute Color Palets Across Data",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/Alex8695/ColoredData",
+    url="https://github.com/Alex8695/ColorfulData",
     author="Alex Crockett",
     author_email="gf8stiv3@gmail.com",
     license="MIT",
