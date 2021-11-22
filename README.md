@@ -20,6 +20,7 @@ CD.Get_Colors(5,Turbo256)
 ```terminal
 ['#30123b', '#3f98fe', '#3ff58a', '#dae236', '#f46516']
 ```
+![5 Color](/img/p5.png)
 
 
 #### Large 300 Item Request:
@@ -38,6 +39,8 @@ To accommodate 300 colors from a palete with only 256 colors, the returned palle
 
 Here you see color #30123b is utilized at index 0 and 1.  Color #311542 is utilized at index 2 and 3
 
+![300 Color](/img/p300.png)
+
 
 ## Get_Colors_Matched()
 ```python
@@ -51,3 +54,7 @@ array([['a', '#30123b'],
        ['c', '#9efd3e'],
        ['d', '#fc8624']], dtype='<U7')
 ```
+
+Returns unique values from the provided list, matched with a color.
+
+Works well when combined with a Pandas Dataframe merge
