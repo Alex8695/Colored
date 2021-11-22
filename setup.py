@@ -199,3 +199,4 @@ setup(
         #'Say Thanks!': 'http://saythanks.io/to/example',
         'Source': 'https://github.com/Alex8695/ColorfulData',
     },
+)
