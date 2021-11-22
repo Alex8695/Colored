@@ -1,2 +1,4 @@
 # Colorful Data
-Python Assign And Evenly Distribute Color Palette To Objects
+Evenly Distribute Color Palette To Objects
+
+Easily Scale Color Palette 
