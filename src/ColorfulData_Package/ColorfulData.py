@@ -15,7 +15,7 @@ class ColorfulData:
         \nIf `colorPalette` is larger then unique `items`: \n\treturned values are equaly spaced from start to end of `colorPalette`
         \n\nIf `colorPalette` is smaller then unique `items`: \n\t`colorPalette` is expanded by repeating colors, in given order, then equaly spaced from start to end 
         """
-        _items = items.unique()
+        _items = np.unique(np.array(items))
         _itemcount = len(_items)
         _ret = ColorfulData.Get_Colors(_itemcount,colorPalette=colorPalette)
         _ret = np.column_stack(
