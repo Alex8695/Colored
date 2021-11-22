@@ -17,7 +17,7 @@ class ColorfulData:
         """
         _items = items.unique()
         _itemcount = len(_items)
-        _ret = Colored.Get_Colors(_itemcount,colorPalette=colorPalette)
+        _ret = ColorfulData.Get_Colors(_itemcount,colorPalette=colorPalette)
         _ret = np.column_stack(
             [np.array(_items), 
             _ret])
